@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label, input{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Form</h1>
+    <form action="">
+        <label for="fullname">Full Name</label>
+        <br>
+        <input type="text" name="fullname" id="fullname">
+        <br>
+        <label for="phone">Phone Number</label>
+        <br>
+        <input type="number" name="phone" id="fullname">  
+        <br>
+        <label for="class-code"> Class Code in Timedoor</label>
+        <br>
+        <input type="text" name="class-code" id="class-code">
+        <br>
+        <label for="age">Age</label>
+        <br>
+        <input type="text" name="age" id="age">
+        <br>
+        <label for="address">Address</label>
+        <br>
+        <textarea name="address" id="address" cols="20"  rows="5"></textarea>
+        <br>
+        <label for="country">Country</label>
+        <br>
+        <select name="country" id="country">
+            <option value="singapore">Singapore</option>
+            <option value="indonesia">Indonesia</option>
+            <option value="japan">Japan</option>
+            <option value="america">America</option>
+            <option value="Russia">Russian</option>
+        </select>
+        <input type="submit">
+    </form>
+</body>
+</html>

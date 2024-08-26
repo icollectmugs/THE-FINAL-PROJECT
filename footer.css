@@ -1,0 +1,46 @@
+/* footer */
+footer {
+    background-color:rgb(103, 125, 106);
+}
+
+.center-footer {
+    margin: 0 20px;
+}
+
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.info-top {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    color: rgb(224, 251, 252);
+    font-family: "Orbitron", sans-serif;
+}
+
+.info-center {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid white;
+    color: rgb(224, 251, 252);
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-instagram-square, 
+.fa-square-youtube,
+.fa-twitter-square,
+.fa-github,
+.fa-discord {
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+}
