@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="contact.css">
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,7 +43,69 @@
     </header>
 
     <main>
+        <div class="contact-container">
+            <div class="illustration">
+                <img src="./assets/Mobile.png" alt="get better wifi kid" width="800px">
+            </div>
+            <div class="contact">
+                <img src="./assets/Profile.png" alt="seriously ur wifi is terrible" class="profile-contact-img">
+                <h1>Contact Me</h1>
+                <p>Please contact me and give me some money or any pics of you 😏</p>
+                <h4>Your Information</h4>
 
+                <form action="contact.html" autocomplete="off">
+                    <div class="form-container">
+                        <!-- Input Name Column -->
+                        <div class="input-container">
+                            <div class="icon">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="form-input">
+                                <input type="text" class="input-item" name="name" id="name" placeholder=" ">
+                                <label for="name" class="form-label">Name</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Input City Column -->
+                    <div class="input-container">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="form-input">
+                            <input class="input-item" type="text"
+                            name="city" id="city" placeholder=" ">
+                            <label for="city" class="form-label">City</label>
+                        </div>
+                    </div>
+                    
+                    <!-- Input Email Column -->
+                    <div class="input-container">
+                        <div class="icon">
+                            <i class="far fa-envelope-open"></i>
+                        </div>
+                        <div class="form-input">
+                            <input class="input-item" type="text"
+                            name="email" id="email" placeholder=" ">
+                            <label for="email" class="form-label">Email</label>
+                        </div>
+                    </div>
+
+                    <!-- Input Messege Column -->
+                    <div class="textarea-container">
+                        <div class="icon">
+                            <i class="fas fa-comment"></i>
+                        </div>
+                        <div class="form-textarea">
+                            <textarea name="messege" id="messege" class="textarea" type="text" cols="52" rows="8" placeholder=" "></textarea>
+                            <label for="messege" class="form-label">
+                            Messege</label>
+                        </div>
+                    </div>
+                    <input type="submit" value="Submit" class="submit">
+                </form>
+            </div>
+        </div>
     </main>
 
     <footer>

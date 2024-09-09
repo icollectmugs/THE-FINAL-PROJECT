@@ -8,6 +8,7 @@ body {
 
 main {
     flex: 1;
+    width: 100%;
 }
 
 /* jumbotron */
@@ -55,38 +56,35 @@ main {
     width: 700px;
 }
 
-/* .jumbotron {
-    padding: 20px;
+/* Homepage */
+#hobby {
+    background-color: rgb(64, 83, 76);
+    margin-top: -20px;
+}
+
+.hobbycard1 {
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 500px;
+    height: 550px;
+    margin: 25px;
+    background-color: rgb(214, 189, 152);
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
     text-align: center;
-    background-color: rgb(0, 0, 0)
 }
 
-.header-flex {
+.imghobby img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.hobbycard1:hover {
+    background-color: rgba(250, 181, 5, 0.831);
+}
+
+.hobbycontainer {
     display: flex;
-    justify-content: space-around;
-    padding: 0;
+    justify-content: center;
 }
-
-.jumbotron-title {
-    color: rgb(224, 251, 252);
-    font-size: 30px;
-    padding-bottom: 20px;
-}
-
-.jumbotron-text {
-    color: rgb(224, 251, 252);
-    text-align: left;
-    padding-bottom: 20px;
-    border-bottom: 8px solid rgb(224, 251, 252);
-}
-
-.jumbotron-img {
-    height: 400px;
-}
-
-.main-content {
-    display: flex;
-    justify-content: flex-start;
-    margin: 20px;
-} */
 
