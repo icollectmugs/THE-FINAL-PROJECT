@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(214, 189, 152);
+}
+
 /* Contact */
 .contact-container {
     display: flex;
