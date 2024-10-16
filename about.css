@@ -2,6 +2,7 @@
 .section-container  {
     text-align: center;
     padding: 10px;
+    background-color: rgb(214, 189, 152);
 }
 
 .section-title {
@@ -13,6 +14,7 @@
     font-size: 15px;
     color: gray;
     margin: 10px 0 0;
+    font-size: 30px;
 }
 
 .about-flex-item {
@@ -41,7 +43,15 @@
     letter-spacing: 2px;
 }
 
+.about-description p {
+    font-size: 40px;
+}
+
 /* Skill */
+#skill {
+    background-color: rgb(214, 189, 152);
+}
+
 .skill-flex {
     display: flex;
     align-items: center;
@@ -54,6 +64,9 @@
     border-radius: 10px;
     padding: 15px;
     background-color: white;
+    display: flex;
+    margin-left: 150px;
+    background-color: rgb(214, 189, 152);
 }
 
 .skill-item img {
@@ -67,4 +80,16 @@
     box-shadow: 0 0 10px gainsboro;
     border-radius: 5px;
     background-color: rgb(247, 199, 117);
+}
+
+.skill-item-description {
+    margin-left: 50px;
+}
+
+.skill-item-description h4 {
+    font-size: 40px;
+}
+
+.skill-item-description p {
+    font-size: 28px;
 }

@@ -1,0 +1,11 @@
+/* Credits */
+.credit-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    font-size: 25px;
+}

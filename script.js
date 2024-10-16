@@ -8,3 +8,5 @@ function changeImage(element) {
     element.setAttribute("src", "assets/picture2.png");
     // element.setAttribute("height", "300")
 }
+
+AOS.init();
