@@ -9,10 +9,11 @@ function changeImage(element) {
     // element.setAttribute("height", "300")
 }
 
-AOS.init();
+
 
 // Form
 var btnSubmit = document.querySelector('.submit');
+console.log(btnSubmit)
 var modal = document.querySelector('.modal-container')
 
 if(btnSubmit){
@@ -23,3 +24,5 @@ if(btnSubmit){
         next.setAttribute('value', 'https://cobee-the-junior-programmer.netlify.app/contact.html');
     })
 }
+
+AOS.init();
