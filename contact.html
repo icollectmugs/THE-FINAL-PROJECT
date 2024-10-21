@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,11 +21,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 
-    <link class="KanitFont" href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link class="KanitFont"
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/03c471e0fe.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <!-- Header -->
 
@@ -48,12 +52,15 @@
                 <img src="./assets/Mobile-removebg-preview.png" alt="get better wifi kid" width="800px">
             </div>
             <div class="contact">
-                <img src="./assets/Profile-removebg-preview.png" alt="seriously ur wifi is terrible" class="profile-contact-img">
+                <img src="./assets/Profile-removebg-preview.png" alt="seriously ur wifi is terrible"
+                    class="profile-contact-img">
                 <h1>Contact Me</h1>
-                <p>Please contact me and give me some money or any pics of you 😏</p>
+                <p>Please contact me and give me some money</p>
                 <h4>Your Information</h4>
 
                 <form action="https://formsubmit.co/brandon.game.id@gmail.com" method="POST" autocomplete="off">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" class="next">
                     <div class="form-container">
                         <!-- Input Name Column -->
                         <div class="input-container">
@@ -73,20 +80,18 @@
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
                         <div class="form-input">
-                            <input class="input-item" type="text"
-                            name="city" id="city" placeholder=" ">
+                            <input class="input-item" type="text" name="city" id="city" placeholder=" ">
                             <label for="city" class="form-label">City</label>
                         </div>
                     </div>
-                    
+
                     <!-- Input Email Column -->
                     <div class="input-container">
                         <div class="icon">
                             <i class="far fa-envelope-open"></i>
                         </div>
                         <div class="form-input">
-                            <input class="input-item" type="text"
-                            name="email" id="email" placeholder=" ">
+                            <input class="input-item" type="text" name="email" id="email" placeholder=" ">
                             <label for="email" class="form-label">Email</label>
                         </div>
                     </div>
@@ -97,13 +102,21 @@
                             <i class="fas fa-comment"></i>
                         </div>
                         <div class="form-textarea">
-                            <textarea name="messege" id="messege" class="textarea" type="text" cols="52" rows="8" placeholder=" "></textarea>
+                            <textarea name="messege" id="messege" class="textarea" type="text" cols="52" rows="8"
+                                placeholder=" "></textarea>
                             <label for="messege" class="form-label">
-                            Messege</label>
+                                Messege</label>
                         </div>
                     </div>
                     <input type="submit" value="Submit" class="submit">
                 </form>
+            </div>
+        </div>
+        <div class="modal-container">
+            <div class="modal">
+                <img src="./assets/Rocket.png" alt="Rocket go boom">
+                <h3>Messege Sent</h3>
+                <p>Thank you for submitting!</p>
             </div>
         </div>
     </main>
@@ -111,7 +124,7 @@
     <footer>
         <div class="main-footer">
             <h3 class="info-top">
-                To Contact Me, Click Here <i class="fa-solid fa-arrow-down"></i> 
+                To Contact Me, Click Here <i class="fa-solid fa-arrow-down"></i>
             </h3>
 
             <div class="social-media">
@@ -128,5 +141,7 @@
         </div>
     </footer>
 
+<script src="script.js"></script>
 </body>
+
 </html>
