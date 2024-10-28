@@ -50,6 +50,6 @@ if (animate) {
 var splashText = document.querySelector(".splash-text");
 if (splashText) {
   setTimeout(function () {
-    splashText.innerHTML = "Come in!";
+    splashText.innerHTML = " Hold on.. IM FLYING!!";
   }, 2000);
 }

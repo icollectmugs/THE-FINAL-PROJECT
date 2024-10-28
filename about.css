@@ -93,3 +93,14 @@
 .skill-item-description p {
     font-size: 28px;
 }
+
+.skill-item-link {
+    font-size: 40px;
+    color: yellow;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
