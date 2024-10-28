@@ -9,3 +9,9 @@
     width: 100%;
     font-size: 25px;
 }
+
+@media only screen and (max-width: 768px) {
+    .credit-description h1 {
+        text-align: center;
+    }
+}

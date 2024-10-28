@@ -132,3 +132,9 @@ body {
     font-size: 10px;
     color: rgb(138, 130, 130);
 }
+
+@media only screen and (max-width: 768px) {
+    .illustration{
+        display:none;
+    }
+}
