@@ -1,3 +1,7 @@
+function toggleMenu() {
+  document.querySelector(".nav-links").classList.toggle("show");
+}
+
 // Changing Jumbotron Image
 function changeImage(element) {
   element.setAttribute("src", "assets/picture4.png");

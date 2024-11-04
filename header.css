@@ -46,3 +46,58 @@ a {
 a:hover {
     color: white;
 }  
+
+@media only screen and (max-width: 375px) {
+    .header{
+        max-width: 375px;
+    }
+
+    .nav-links nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+        padding: 48px 0;
+        gap: 24px;
+        background-color: rgb(103, 125, 106);
+        opacity: 0.95;
+        position: relative;
+    }
+
+    .show{
+        display: none;
+    }
+
+    .close-btn {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        z-index: 10;
+        background-color: rgb(103, 125, 106);
+        right: 24px;
+        top: 24px;
+        border: none;
+        color: white;
+        font-size: 24px;
+    }
+
+    .nav-links a:hover {
+        color: white;
+    }
+
+    .burger-menu {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 23px;
+    }
+
+    .burger-menu span{
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: black;
+        margin: 3px 0;
+    }
+}

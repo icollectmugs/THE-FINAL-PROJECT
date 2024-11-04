@@ -46,12 +46,23 @@
             <img src="./assets/picture3.webp" alt="Icon" class="header-icon">
             <h3 class="title"><a href="">My Blog</a></h3>
 
-            <nav>
-                <a href="/">Home</a>
-                <a href="contact.html">Contact</a>
-                <a href="about.html">About Me</a>
-                <a href="credits.html">Credits</a>
-            </nav>
+            <!-- Burger Menu Icon -->
+            <div class="burger-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- Navigation Links with Close Button -->
+            <div class="nav-links">
+                <button class="close-btn" onclick="toggleMenu()">X</button>
+                <nav>
+                    <a href="/">Home</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="about.html">About Me</a>
+                    <a href="credits.html">Credits</a>
+                </nav>
+            </div>
         </div>
     </header>
 
