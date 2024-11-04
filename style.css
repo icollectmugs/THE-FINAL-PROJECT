@@ -131,6 +131,15 @@ main {
     margin-top: -5px;
 }
 
+.addiction-title {
+    text-align: center;
+    margin: 2px;
+    font-weight: 800;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
 .hobbycard1 {
     border: 5px solid black;
     border-radius: 15px;
@@ -244,5 +253,39 @@ main {
     .astronaut-dabbing {
         top: 20%;
         left: 25%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .addiction-title {
+        font-size: 28px;
+    }
+
+    .hobbycard1 h1 {
+        font-size: 20px;
+        padding: 16px;
+    }
+
+    .imghobby img {
+        width: 300px;
+    }
+
+    .hobbycard1 {
+        width: 300px;
+        height: 340px;
+    }
+    
+    .jumbotron-img2 {
+        width: 300px;
+    }
+
+    .jumbotron-img {
+        width: 300px;
+        margin: 0;
+    }
+
+    .astronaut-dabbing {
+        left: 5%;
+        top: 0%;
     }
 }

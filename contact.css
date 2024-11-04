@@ -39,7 +39,7 @@ body {
 }
 
 /* Input Column */
-.icon {
+.icon, .icon-messege {
     margin-right: 6px;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 /* Label */
-.form-label  {
+.form-label, .textarea-label  {
     position: absolute;
     left: 10px;
     top: 10px;
@@ -136,5 +136,34 @@ body {
 @media only screen and (max-width: 768px) {
     .illustration{
         display:none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .contact-description {
+        width: 260px;
+        margin: 12px auto;
+    }
+
+    .form-input {
+        width: 60%;
+    }
+
+    .icon-messege {
+        margin-left: -200px;
+    }
+
+    .form-textarea label{
+        top: -25px;
+        left: 90px;
+    }
+
+    .textarea {
+        width: 60%;
+    }
+
+    .textarea-container {
+        display: flex;
+        flex-direction: column;
     }
 }

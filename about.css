@@ -129,3 +129,33 @@
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 375px) {
+    .blob-image {
+        width: 240px;
+        height: auto;
+    }
+
+    .about-description p{
+        font-size: 20px;
+    }
+
+    .skill-item-image img{
+        width: 280px;
+        height: auto;
+    }
+
+    .skill-item-description h4{
+        font-size: 28px;
+    }
+
+    .skill-item-description p{
+        font-size: 16px;
+        margin: 16px auto;
+        width: 260px;
+    }
+    
+    .skill-item-link {
+        font-size: 20px;
+    }
+}
